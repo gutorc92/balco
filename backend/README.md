@@ -20,9 +20,7 @@ A API deve estar disponivel na porta 5000.
 
 # Executando os testes
 
-Entre na pasta tests
-
-> $ python teste_api.py
+> $ coverage run --source=. -m unittest discover -s tests
 
 # Executando o linter
 
